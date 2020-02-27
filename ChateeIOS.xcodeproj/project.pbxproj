@@ -12,7 +12,13 @@
 		285E1793240836EF00A40B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285E1791240836EF00A40B9B /* Main.storyboard */; };
 		285E1795240836F100A40B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285E1794240836F100A40B9B /* Assets.xcassets */; };
 		285E17A024083D2500A40B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 285E179F24083D2400A40B9B /* GoogleService-Info.plist */; };
-		28E2DC32240846E300D089B3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC31240846E300D089B3 /* WelcomeViewController.swift */; };
+		28E2DC34240853CB00D089B3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC33240853CB00D089B3 /* WelcomeViewController.swift */; };
+		28E2DC362408575300D089B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC352408575300D089B3 /* LoginViewController.swift */; };
+		28E2DC382408576700D089B3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC372408576700D089B3 /* RegisterViewController.swift */; };
+		28E2DC40240858E600D089B3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC3F240858E600D089B3 /* ChatViewController.swift */; };
+		28E2DC452408758400D089B3 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC432408758400D089B3 /* MessageCell.swift */; };
+		28E2DC462408758400D089B3 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2DC442408758400D089B3 /* MessageCell.xib */; };
+		28E2DC4A24087E4F00D089B3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2DC4924087E4F00D089B3 /* Message.swift */; };
 		7E32920C74D2F4D71DD860FD /* Pods_ChateeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF24309CA9B9C3F197A968 /* Pods_ChateeIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +30,13 @@
 		285E1794240836F100A40B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285E1799240836F100A40B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		285E179F24083D2400A40B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		28E2DC31240846E300D089B3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		28E2DC33240853CB00D089B3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		28E2DC352408575300D089B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		28E2DC372408576700D089B3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		28E2DC3F240858E600D089B3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		28E2DC432408758400D089B3 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		28E2DC442408758400D089B3 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		28E2DC4924087E4F00D089B3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		46DA45560DBE18176A9BA4BD /* Pods-ChateeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChateeIOS.release.xcconfig"; path = "Target Support Files/Pods-ChateeIOS/Pods-ChateeIOS.release.xcconfig"; sourceTree = "<group>"; };
 		53F8E7AECDC0369901AE6334 /* Pods-ChateeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChateeIOS.debug.xcconfig"; path = "Target Support Files/Pods-ChateeIOS/Pods-ChateeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		80FF24309CA9B9C3F197A968 /* Pods_ChateeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChateeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,10 +87,16 @@
 				285E178B240836EF00A40B9B /* AppDelegate.swift */,
 				285E178D240836EF00A40B9B /* SceneDelegate.swift */,
 				285E1791240836EF00A40B9B /* Main.storyboard */,
+				28E2DC432408758400D089B3 /* MessageCell.swift */,
+				28E2DC442408758400D089B3 /* MessageCell.xib */,
+				28E2DC33240853CB00D089B3 /* WelcomeViewController.swift */,
+				28E2DC3F240858E600D089B3 /* ChatViewController.swift */,
+				28E2DC352408575300D089B3 /* LoginViewController.swift */,
+				28E2DC372408576700D089B3 /* RegisterViewController.swift */,
 				285E1794240836F100A40B9B /* Assets.xcassets */,
 				285E1799240836F100A40B9B /* Info.plist */,
 				285E179F24083D2400A40B9B /* GoogleService-Info.plist */,
-				28E2DC31240846E300D089B3 /* WelcomeViewController.swift */,
+				28E2DC4924087E4F00D089B3 /* Message.swift */,
 			);
 			path = ChateeIOS;
 			sourceTree = "<group>";
@@ -152,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				285E17A024083D2500A40B9B /* GoogleService-Info.plist in Resources */,
+				28E2DC462408758400D089B3 /* MessageCell.xib in Resources */,
 				285E1795240836F100A40B9B /* Assets.xcassets in Resources */,
 				285E1793240836EF00A40B9B /* Main.storyboard in Resources */,
 			);
@@ -206,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E2DC32240846E300D089B3 /* WelcomeViewController.swift in Sources */,
+				28E2DC362408575300D089B3 /* LoginViewController.swift in Sources */,
+				28E2DC382408576700D089B3 /* RegisterViewController.swift in Sources */,
+				28E2DC34240853CB00D089B3 /* WelcomeViewController.swift in Sources */,
 				285E178C240836EF00A40B9B /* AppDelegate.swift in Sources */,
+				28E2DC40240858E600D089B3 /* ChatViewController.swift in Sources */,
+				28E2DC4A24087E4F00D089B3 /* Message.swift in Sources */,
 				285E178E240836EF00A40B9B /* SceneDelegate.swift in Sources */,
+				28E2DC452408758400D089B3 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
